@@ -1,3 +1,7 @@
 go 1.18
 
-use ./03-go-project
+use (
+	./03-go-project
+	./04-go-package
+	./04-go-package/uderscore-example
+)
