@@ -17,7 +17,7 @@
     }
   },
   "go.languageServerExperimentalFeatures": {
-    "diagnostics": true,
+    "diagnostics": true
   },
   "go.languageServerFlags": [
     "-rpc.trace", // for more detailed debug logging
