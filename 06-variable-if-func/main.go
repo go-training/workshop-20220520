@@ -66,9 +66,17 @@ func main() {
 		}()
 	}
 
-	var foo = map[string]string{
-		"foo": "test01",
-		"bar": "test02",
+	foo := map[string]string{
+		"foo01": "test01",
+		"bar02": "test02",
+		"foo03": "test03",
+		"bar04": "test04",
+		"foo05": "test01",
+		"bar06": "test02",
+		"foo07": "test03",
+		"bar08": "test04",
+		"bar09": "test04",
+		"bar10": "test04",
 	}
 
 	for i, v := range foo {
