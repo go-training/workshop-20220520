@@ -1,6 +1,8 @@
 package car
 
-import "errors"
+import (
+	"errors"
+)
 
 // Car struct
 type Car struct {
