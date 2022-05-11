@@ -5,6 +5,6 @@ use (
 	./04-go-package
 	./04-go-package/uderscore-example
 	./05-cross-build
-	./08-struct-pointer-vs-value/make-vs-new/example02
+	./08-struct/make-vs-new/example02
 	./10-interface/example01
 )
