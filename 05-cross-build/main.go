@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"foobar/hello"
 	"foobar/hello2"
 	"foobar/hello3"
