@@ -32,7 +32,6 @@ linters:
     - unused
     - varcheck
     - whitespace
-    - gofumpt
 
 run:
   timeout: 3m
