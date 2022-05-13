@@ -5,8 +5,10 @@ import (
 	"reflect"
 )
 
-type Element interface{}
-type List []Element
+type (
+	Element interface{}
+	List    []Element
+)
 
 type Person struct {
 	name string

@@ -24,7 +24,7 @@ func (t Toyota) Color() string {
 }
 
 // NewCar contructure
-func NewCar(name string, price float64, discount float64, color string) *Toyota {
+func NewCar(name string, price, discount float64, color string) *Toyota {
 	return &Toyota{
 		name:     name,
 		price:    price,

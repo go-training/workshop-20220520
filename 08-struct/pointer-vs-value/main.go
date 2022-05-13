@@ -35,7 +35,7 @@ func (t toyota) updateColor(color string) {
 	t.color = color
 }
 
-func newCar(name string, price float64, discount float64, color string) *toyota {
+func newCar(name string, price, discount float64, color string) *toyota {
 	return &toyota{
 		name:     name,
 		price:    price,
