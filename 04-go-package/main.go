@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"foobar/controller"
+	"example02/controller"
 )
 
 func main() {

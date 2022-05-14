@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"cross/hello"
-	"cross/hello2"
-	"cross/hello3"
+	"example04/hello"
+	"example04/hello2"
+	"example04/hello3"
 )
 
 func main() {

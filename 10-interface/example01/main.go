@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"foobar/lexus"
-	"foobar/toyota"
+	"example05/lexus"
+	"example05/toyota"
 )
 
 type car interface {

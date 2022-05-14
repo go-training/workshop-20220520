@@ -1,4 +1,4 @@
-module foobar
+module example03
 
 go 1.18
 
