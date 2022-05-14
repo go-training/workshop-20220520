@@ -6,5 +6,5 @@ use (
 	./04-go-package/uderscore-example
 	./05-cross-build
 	./10-interface/example01
-	./13-go-channel/goroutine-leak
+	./13-go-channel/05-goroutine-leak
 )

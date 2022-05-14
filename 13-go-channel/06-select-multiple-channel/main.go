@@ -25,7 +25,7 @@ Loop:
 	for {
 		select {
 		case entry := <-logCh:
-			fmt.Printf("%v: %v\n", entry.time.Format("2006-01-02T01:01:01"), entry.message)
+			fmt.Printf("%s %v\n", entry.time.Format(time.RFC3339), entry.message)
 		case <-doneCh:
 			fmt.Println("break the select loop")
 			break Loop
