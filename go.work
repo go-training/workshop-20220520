@@ -7,6 +7,6 @@ use (
 	./05-cross-build
   ./08-struct/empty-struct
 	./10-interface/example01
-	./13-go-channel/05-goroutine-leak
-  ./13-go-channel/07-timeout-issue
+	./13-go-channel/06-goroutine-leak
+  ./13-go-channel/08-timeout-issue
 )
